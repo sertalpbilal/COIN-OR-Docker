@@ -25,8 +25,7 @@ RUN mv chromedriver /usr/local/bin/chromedriver
 RUN chmod +x /usr/local/bin/chromedriver
 
 ## Install dependencies
-RUN apt install -y python3
-RUN python3 -m ensurepip
+RUN apt install -y python3 python3-pip
 RUN pip3 install --no-cache --upgrade pip pandas selenium
 
 RUN apt-get install --no-install-recommends -y numactl libssl1.1
