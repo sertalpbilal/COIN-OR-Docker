@@ -29,7 +29,6 @@ RUN apt install -y python3 python3-pip
 RUN pip3 install --no-cache --upgrade pip pandas selenium
 
 RUN apt-get install --no-install-recommends -y numactl libssl1.1
-RUN python3 -m ensurepip
 RUN pip3 install --no-cache --upgrade sasoptpy cylp flask frozen-flask pillow
 
 CMD echo 'Ready'
