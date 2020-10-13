@@ -1,2 +1,2 @@
 # COIN-OR-Docker
-A Docker container for COIN-OR Optimization Suite
+A Docker container including COIN-OR Optimization Suite, sasoptpy, selenium, flask and pillow
